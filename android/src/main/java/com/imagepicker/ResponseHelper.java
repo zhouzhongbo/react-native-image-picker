@@ -75,4 +75,12 @@ public class ResponseHelper
     {
         callback.invoke(response);
     }
+
+    /**
+     *   code : 0:同意     1:拒绝
+     */
+    public void invokeContactRequestCode(@NonNull final Callback callback, @NonNull int code){
+        cleanResponse();
+        callback.invoke(code);
+    }    
 }
