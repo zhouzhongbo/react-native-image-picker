@@ -2,5 +2,5 @@ rootProject.name = 'Example'
 
 include ':app'
 
-include ':react-native-image-picker'
-project(':react-native-image-picker').projectDir = new File(settingsDir, '../../android')
+include ':zzb-react-native-image-picker'
+project(':zzb-react-native-image-picker').projectDir = new File(settingsDir, '../../android')
